@@ -118,4 +118,5 @@ obj-$(CONFIG_TOUCHSCREEN_GT9XX)		+= gt9xx/
 obj-$(CONFIG_TOUCHSCREEN_FT5446)	+= ft5446/
 obj-$(CONFIG_VITURALSAR)		+= vituralsar_driver.o
 
+
 obj-$(CONFIG_MACH_XIAOMI_YSL)	+= lct_tp_fm_info.o

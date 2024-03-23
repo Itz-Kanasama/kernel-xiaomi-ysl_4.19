@@ -680,12 +680,12 @@ endif
 
 dtb-$(CONFIG_ARCH_SDM845_VM) += sdm845-vm.dtb
 
-else # CONFIG_MACH_XIAOMI_OXYGEN
+else # CONFIG_MACH_XIAOMI_YSL
 
-dtb-$(CONFIG_MACH_XIAOMI_OXYGEN) += oxygen/msm8953-oxygen.dtb
+dtb-$(CONFIG_MACH_XIAOMI_YSL) += oxygen/ysl_msm8953.dtb
 
-endif # CONFIG_MACH_XIAOMI_OXYGEN
+endif # CONFIG_MACH_XIAOMI_YSL
 
 always		:= $(dtb-y)
 subdir-y	:= $(dts-dirs)
-clean-files	:= *.dtb *.dtbo
+clean-files	:= *.dtb 
